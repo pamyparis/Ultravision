@@ -8,6 +8,14 @@
 body {
   /* Default font family and font color */
 }
+.Rectangle-Copy-5 {
+  width: 1440px;
+  height: 128px;
+  margin: 0 0 8px;
+  padding: 0 416px 5px 418px;
+  opacity: 0.81;
+  background-color: #fcce00;
+}
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
