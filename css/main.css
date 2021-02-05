@@ -9,15 +9,13 @@ body {
   /* Default font family and font color */
 }
 #rectangle1 {
-  width: 1440px;
   height: 128px;
-  margin: 0 0 8px;
+  margin:  8px 0;
   padding: 0 416px 5px 418px;
   opacity: 0.81;
   background-color: #fcce00;
 }
 .title {
-  width: 606px;
   height: 123px;
   font-family: Poppins;
   font-size: 88px;
@@ -31,7 +29,6 @@ body {
 }
 
 #rectangle2 {
-  width: 1440px;
   height: 64px;
   margin: 8px 0;
   padding: 6px 478px 5px;
@@ -39,7 +36,6 @@ body {
   background-color: #ff6b00;
 }
 .title1 {
-  width: 484px;
   height: 53px;
   font-family: Poppins;
   font-size: 38px;
@@ -52,28 +48,24 @@ body {
   color: #ffffff;
 }
 #rectangle3 {
-  width: 1440px;
   height: 32px;
   margin: 8px 0;
   opacity: 0.81;
   background-color: #e02020;
 }
 #rectangle4 {
-  width: 1440px;
   height: 16px;
   margin: 8px 0;
   opacity: 0.81;
   background-color:#b620e0;
 }
 #rectangle5 {
-  width: 1440px;
   height: 8px;
   margin: 8px 0 0;
   opacity: 0.81;
   background-color: #6236ff;
 }
 .section-title{
-  width: 993px;
   height: 56px;
   font-family: Poppins;
   font-size: 40px;
@@ -84,6 +76,29 @@ body {
   letter-spacing: normal;
   text-align: center;
   color: #231f20;
+}
+.weput {
+  width: 640px;
+  height: 33px;
+  margin: 0 31px 34px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color:#231f20
+} 
+
+/* Flexbox */
+.colonnes {
+  display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+.bloc{
+  flex-basis: 0;
+  flex-grow: 1;
+  background-color: black;
 }
 p, li, textarea, label, input, select {
   /* Default font size and line height */
