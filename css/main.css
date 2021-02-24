@@ -65,41 +65,131 @@ body {
   opacity: 0.81;
   background-color: #6236ff;
 }
-.section-title{
-  height: 56px;
+.bigtitle{
   font-family: Poppins;
   font-size: 40px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #231f20;
 }
-.weput {
-  width: 640px;
-  height: 33px;
+
+
+/* Flexbox */
+.bloc{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.colonne1{
+  padding-left: 48px;
+  padding-right: 32px;
+}
+
+.colonne2 {
+  background-image: url(../img/bg-yellow.png);
+}
+
+.titre-paragraphe {
   margin: 0 31px 34px 0;
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  color:#231f20
+  margin-bottom: 64px;
 } 
-
-/* Flexbox */
-.colonnes {
-  display: flex;
-justify-content: space-between;
-flex-direction: row;
+.ordinateur-1{
+  mix-blend-mode: darken;
+  margin-left: 30px 31px 22px 455px;
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  display: block
 }
 
-.bloc{
-  flex-basis: 0;
-  flex-grow: 1;
-  background-color: black;
+.paragraphe1{
+  width: 640px;
+  height: 345;
+  margin: 34px 31px 30px 0;
+  font-size: 16px;
+  text-align: justify;
 }
+
+.button1{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border: solid 4px var(#fcce00);
+}
+
+
+.ordinateur-2{
+  mix-blend-mode: darken;
+  margin-left: 30px 31px 22px 455px;
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  display: block
+}
+
+.colonne3 {
+  background-image: url(../img/bg-orange.png);
+}
+
+.bigtitle2{
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  color: #231f20;
+}
+
+.titre-bold{
+  width: 640px;
+  height: 45px;
+  margin: 0 0 32px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.paragraphe3{
+  width: 487px;
+  height: 66px;
+  margin: 32px 153px 32px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.colonne6 {
+  background-image: url(../img/bg-red.png);
+  width: 1440px;
+  height: 640px;
+  margin: 0 0 1px;
+}
+
+.feature-1{
+  mix-blend-mode: darken;
+  margin-left: 30px 31px 22px 455px;
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  display: block
+}
+
+
+
+
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
