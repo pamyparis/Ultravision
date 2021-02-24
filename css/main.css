@@ -87,6 +87,9 @@ body {
 
 .colonne2 {
   background-image: url(../img/bg-yellow.png);
+  width: 720px;
+  height: 512px;
+  margin: 0 0 0 32px;
 }
 
 .titre-paragraphe {
@@ -98,12 +101,10 @@ body {
   margin-bottom: 64px;
 } 
 .ordinateur-1{
-  mix-blend-mode: darken;
-  margin-left: 30px 31px 22px 455px;
   width: 487px;
   height: 471px;
   object-fit: contain;
-  display: block
+  mix-blend-mode: darken;
 }
 
 .paragraphe1{
@@ -120,20 +121,32 @@ body {
   margin: 30px 31px 22px 455px;
   padding: 10px 36px;
   border: solid 4px var(#fcce00);
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcce00;
 }
 
 
 .ordinateur-2{
-  mix-blend-mode: darken;
-  margin-left: 30px 31px 22px 455px;
-  width: 487px;
-  height: 471px;
+  width: 378px;
+  height: 486px;
   object-fit: contain;
-  display: block
+  mix-blend-mode: darken;
 }
 
 .colonne3 {
   background-image: url(../img/bg-orange.png);
+  width: 720px;
+  height: 512px;
+  margin: 0 33px 0 0;
 }
 
 .bigtitle2{
@@ -141,6 +154,25 @@ body {
   font-size: 40px;
   text-align: center;
   color: #231f20;
+}
+
+.button2{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border: solid 4px var(#fcce00);
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff6b00;
 }
 
 .titre-bold{
@@ -171,6 +203,25 @@ body {
   color: var(--white);
 }
 
+.button3{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border: solid 4px var(#fcce00);
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
 .colonne6 {
   background-image: url(../img/bg-red.png);
   width: 1440px;
@@ -178,21 +229,111 @@ body {
   margin: 0 0 1px;
 }
 
-.feature-1{
-  mix-blend-mode: darken;
-  margin-left: 30px 31px 22px 455px;
-  width: 487px;
-  height: 471px;
+.ordinateur-3 { 
+  width: 745px;
+  height: 576px;
   object-fit: contain;
-  display: block
+  mix-blend-mode: darken;
 }
 
+.colonne8 {
+  background-image: url(../img/bg-violet.png);
+  width: 1440px;
+  height: 640px;
+  margin: 0 0 1px;
+}
 
+.paragraphe4{
+  width: 487px;
+  height: 66px;
+  margin: 32px 153px 32px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
 
+.button4{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border: solid 4px var(#fcce00);
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
 
+.ordinateur-4 {
+  width: 752px;
+  height: 582px;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+
+.colonne10 {
+  background-image: url(../img/bg-blue.png);
+  width: 1440px;
+  height: 640px;
+  margin: 0 0 1px;
+}
+
+.paragraphe5{
+  width: 487px;
+  height: 66px;
+  margin: 32px 153px 32px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.button5{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border: solid 4px var(#fcce00);
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ordinateur-5 {
+  width: 752px;
+  height: 582px;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
+
+
 
 
 
