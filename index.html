@@ -53,18 +53,18 @@
     <div class="colonne colonne1">
     <h4 class="titre-paragraphe">Entertainment Surpassing the "Real Arcade Game" Experience</h4>
     <p class="paragraphe1">The only video game system that is completely self-contained:
-      <ul>
+      <ul class="paragraphe1">
         <li> • Built-in 9" diagonal high resolution color monitor. </li>
         <li>  • Advanced display technology with detailed graphics and special effects 
           found only in coin-op arcade games.</li>
         <li>• Greater brilliance & higher resolution than conventional television systems.</li>
-      </ul> Completeluy portable: Operates on AC/DC current with self-contained 
+      </ul> <p class="paragraphe1">Completeluy portable: Operates on AC/DC current with self-contained 
       rechargeable battery power pack & optional cigarette lighter adaptor cord. </p>
       <a class="button2" href="#">learn more</a>
   </div>
   </div>
 
-  <h3 class="bigtitle2">ADVANCE FEATURES:</h3>
+  <h3 class="bigtitle1">ADVANCE FEATURES:</h3>
 
   <div class="bloc bloc56">
     <div class="colonne colonne5">
@@ -156,29 +156,25 @@
   
   <h3 class="bigtitle2">Contact</h3>
 
-  <div class="form-row1">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
+  <form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+      <label for="mail">Subject</label>
+      <input type="email" id="mail" name="user_mail">
   </div>
-
-  <div class="form-row2">
-    <label for="subject">Subject</label>
-    <select name="subject" id="subject">
-      <option value="Billing">Billing question</option>
-      <option value="Delivery">Delivery enquiries</option>
-      <option value="Other">…</option>
-    </select>
-  </div>
-  
-  <div class="form-row3">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-  </div>
-    
-  <div class="form-row4">
-    <label for="message">Message</label>
-    <input type="textarea" name="message" id="message">
-  </div>
+    <div>
+        <label for="msg">Message</label>
+        <textarea id="msg" name="user_message">In quis luctus nibh, vel iaculis nisl. Nam lobortis turpis eget nibh mollis aliquet. Nam sodales elit id erat aliquam, sed tristique diam consequat.</textarea>
+        
+    </div>
+</form>
 
 
 </body>
