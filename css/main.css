@@ -427,14 +427,71 @@ body {
   display: flex;
 }
 
-
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
-}
-
 .colonne11{
   background-color:#231f20;
   padding:64px 0px;
+}
+
+
+.game{
+  position: relative;
+}
+
+.fond {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 300ms;
+  transform: translateX(-10px);
+}
+.image {
+  opacity: 33%;
+}
+.titre1 {
+  width: 117px;
+  margin: 0 81px 8px 82px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+.titre2 {
+  width: 280px;
+  height: 32px;
+  margin: 8px 0 32px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcce00;
+}
+
+.titre3 { 
+  width: 280px;
+  height: 69px;
+  margin: 32px 0 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+
 }
 
 form {
